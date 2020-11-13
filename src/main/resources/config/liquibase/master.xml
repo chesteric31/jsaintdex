@@ -14,7 +14,17 @@
     <property name="uuidType" value="varchar(36)" dbms="h2, mysql, mariadb"/>
 
     <include file="config/liquibase/changelog/00000000000000_initial_schema.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20201113123835_added_entity_ArmorCategory.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20201113123935_added_entity_Strength.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20201113124035_added_entity_Armor.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20201113124135_added_entity_ArmorStrength.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20201113124235_added_entity_ArmorVersion.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20201113124335_added_entity_ArmorVersionAttack.xml" relativeToChangelogFile="false"/>
     <!-- jhipster-needle-liquibase-add-changelog - JHipster will add liquibase changelogs here -->
+    <include file="config/liquibase/changelog/20201113124035_added_entity_constraints_Armor.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20201113124135_added_entity_constraints_ArmorStrength.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20201113124235_added_entity_constraints_ArmorVersion.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20201113124335_added_entity_constraints_ArmorVersionAttack.xml" relativeToChangelogFile="false"/>
     <!-- jhipster-needle-liquibase-add-constraints-changelog - JHipster will add liquibase constraints changelogs here -->
     <!-- jhipster-needle-liquibase-add-incremental-changelog - JHipster will add incremental liquibase changelogs here -->
 </databaseChangeLog>

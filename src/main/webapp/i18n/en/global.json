@@ -1,12 +1,18 @@
 {
   "global": {
-    "title": "Jsaintdex",
+    "title": "JSaintDex",
     "browsehappy": "You are using an <strong>outdated</strong> browser. Please <a href=\"http://browsehappy.com/?locale=en\">upgrade your browser</a> to improve your experience.",
     "menu": {
       "home": "Home",
       "jhipster-needle-menu-add-element": "JHipster will add additional menu entries here (do not translate!)",
       "entities": {
         "main": "Entities",
+        "armorCategory": "Armor Category",
+        "strength": "Strength",
+        "armor": "Armor",
+        "armorStrength": "Armor Strength",
+        "armorVersion": "Armor Version",
+        "armorVersionAttack": "Armor Version Attack",
         "jhipster-needle-menu-add-entry": "JHipster will add additional entities here (do not translate!)"
       },
       "account": {
@@ -136,5 +142,5 @@
       "not.image": "File was expected to be an image but was found to be \"{{ fileType }}\""
     }
   },
-  "footer": "This is your footer"
+  "footer": "JSaintDex - Open source sofware inspired by pokedex"
 }

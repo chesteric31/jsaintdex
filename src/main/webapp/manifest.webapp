@@ -3,28 +3,34 @@
   "short_name": "Jsaintdex",
   "icons": [
     {
-      "src": "./content/images/jhipster_family_member_0_head-192.png",
+      "src": "./content/images/nike-152.png",
+      "sizes": "152x152",
+      "type": "image/png"
+    },
+    {
+      "src": "./content/images/nike-192.png",
       "sizes": "192x192",
       "type": "image/png"
     },
     {
-      "src": "./content/images/jhipster_family_member_0_head-256.png",
-      "sizes": "256x256",
-      "type": "image/png"
-    },
-    {
-      "src": "./content/images/jhipster_family_member_0_head-384.png",
+      "src": "./content/images/nike-384.png",
       "sizes": "384x384",
       "type": "image/png"
     },
     {
-      "src": "./content/images/jhipster_family_member_0_head-512.png",
+      "src": "./content/images/nike-512.png",
       "sizes": "512x512",
       "type": "image/png"
+    },
+    {
+      "src": "./content/images/nike-mask.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
     }
   ],
   "theme_color": "#000000",
-  "background_color": "#e0e0e0",
+  "background_color": "#ffd700",
   "start_url": ".",
   "display": "standalone",
   "orientation": "portrait"

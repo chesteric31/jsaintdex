@@ -48,6 +48,15 @@ public class CacheConfiguration {
             createCache(cm, be.chesteric31.domain.User.class.getName());
             createCache(cm, be.chesteric31.domain.Authority.class.getName());
             createCache(cm, be.chesteric31.domain.User.class.getName() + ".authorities");
+            createCache(cm, be.chesteric31.domain.ArmorCategory.class.getName());
+            createCache(cm, be.chesteric31.domain.Strength.class.getName());
+            createCache(cm, be.chesteric31.domain.Armor.class.getName());
+            createCache(cm, be.chesteric31.domain.Armor.class.getName() + ".versions");
+            createCache(cm, be.chesteric31.domain.Armor.class.getName() + ".strengths");
+            createCache(cm, be.chesteric31.domain.ArmorStrength.class.getName());
+            createCache(cm, be.chesteric31.domain.ArmorVersion.class.getName());
+            createCache(cm, be.chesteric31.domain.ArmorVersion.class.getName() + ".attacks");
+            createCache(cm, be.chesteric31.domain.ArmorVersionAttack.class.getName());
             // jhipster-needle-ehcache-add-entry
         };
     }
