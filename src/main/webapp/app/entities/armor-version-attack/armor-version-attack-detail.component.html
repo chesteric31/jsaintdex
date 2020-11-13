@@ -1,0 +1,36 @@
+<div class="row justify-content-center">
+    <div class="col-8">
+        <div *ngIf="armorVersionAttack">
+            <h2><span jhiTranslate="jsaintdexApp.armorVersionAttack.detail.title">Armor Version Attack</span> {{ armorVersionAttack.id }}</h2>
+
+            <hr>
+
+            <jhi-alert-error></jhi-alert-error>
+
+            <dl class="row-md jh-entity-details">
+                <dt><span jhiTranslate="jsaintdexApp.armorVersionAttack.name">Name</span></dt>
+                <dd>
+                    <span>{{ armorVersionAttack.name }}</span>
+                </dd>
+                <dt><span jhiTranslate="jsaintdexApp.armorVersionAttack.version">Version</span></dt>
+                <dd>
+                    <div *ngIf="armorVersionAttack.versionId">
+                        <a [routerLink]="['/armor-version', armorVersionAttack.versionId, 'view']">{{ armorVersionAttack.versionId }}</a>
+                    </div>
+                </dd>
+            </dl>
+
+            <button type="submit"
+                    (click)="previousState()"
+                    class="btn btn-info">
+                <fa-icon icon="arrow-left"></fa-icon>&nbsp;<span jhiTranslate="entity.action.back">Back</span>
+            </button>
+
+            <button type="button"
+                    [routerLink]="['/armor-version-attack', armorVersionAttack.id, 'edit']"
+                    class="btn btn-primary">
+                <fa-icon icon="pencil-alt"></fa-icon>&nbsp;<span jhiTranslate="entity.action.edit">Edit</span>
+            </button>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,25 @@
+{
+  "jsaintdexApp": {
+    "armorVersion": {
+      "home": {
+        "title": "Armor Versions",
+        "createLabel": "Create a new Armor Version",
+        "createOrEditLabel": "Create or edit a Armor Version",
+        "notFound": "No Armor Versions found"
+      },
+      "created": "A new Armor Version is created with identifier {{ param }}",
+      "updated": "A Armor Version is updated with identifier {{ param }}",
+      "deleted": "A Armor Version is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Armor Version {{ id }}?"
+      },
+      "detail": {
+        "title": "Armor Version"
+      },
+      "name": "Name",
+      "image": "Image",
+      "attacks": "Attacks",
+      "armor": "Armor"
+    }
+  }
+}

@@ -1,0 +1,65 @@
+id;name;category_id
+1;pegasus;1
+2;drago;1
+3;cygnus;1
+4;andromeda;1
+5;phoenix;1
+6;monoceros;1
+7;leo minor;1
+8;ursa maior;1
+9;hydra;1
+10;lupus;1
+11;chamaleon;1
+12;aquila;2
+13;ophiuchus;2
+14;lacerta;2
+15;cetus;2
+16;canes venatici;2
+17;centaurus;2
+18;auriga;2
+19;cerberus;2
+20;perseus;2
+21;canis major;2
+22;musca;2
+23;hercules;2
+24;sagitta;2
+25;cepheus;2
+26;lyra;2
+27;cancer minor;2
+28;pavo;2
+29;lotus;2
+30;corvus;2
+31;aries;3
+32;taurus;3
+33;gemini;3
+34;cancer;3
+35;leo;3
+36;virgo;3
+37;libra;3
+38;scorpius;3
+39;sagittarius;3
+40;capricornus;3
+41;aquarius;3
+42;pisces;3
+43;land;4
+44;marine;4
+45;sky;4
+46;dubhe alpha;5
+47;merak beta;5
+48;phecda gamma;5
+49;megrez delta;5
+50;alioth epsilon;5
+51;mizar zeta;5
+52;alcor zeta;5
+53;benetnash eta;5
+54;sea horse;6
+55;scylla;6
+56;chrysaor;6
+57;limnade;6
+58;kraken;6
+59;siren;6
+60;sea dragon;6
+61;geist;7
+62;dolphin;7
+63;sea serpent;7
+64;jellyfish;7

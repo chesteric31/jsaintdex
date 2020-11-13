@@ -1,0 +1,24 @@
+{
+  "jsaintdexApp": {
+    "armorStrength": {
+      "home": {
+        "title": "Armor Strengths",
+        "createLabel": "Create a new Armor Strength",
+        "createOrEditLabel": "Create or edit a Armor Strength",
+        "notFound": "No Armor Strengths found"
+      },
+      "created": "A new Armor Strength is created with identifier {{ param }}",
+      "updated": "A Armor Strength is updated with identifier {{ param }}",
+      "deleted": "A Armor Strength is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Armor Strength {{ id }}?"
+      },
+      "detail": {
+        "title": "Armor Strength"
+      },
+      "value": "Value",
+      "strength": "Strength",
+      "armor": "Armor"
+    }
+  }
+}

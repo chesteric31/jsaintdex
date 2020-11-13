@@ -1,0 +1,22 @@
+{
+  "jsaintdexApp": {
+    "armorCategory": {
+      "home": {
+        "title": "Armor Categories",
+        "createLabel": "Create a new Armor Category",
+        "createOrEditLabel": "Create or edit a Armor Category",
+        "notFound": "No Armor Categories found"
+      },
+      "created": "A new Armor Category is created with identifier {{ param }}",
+      "updated": "A Armor Category is updated with identifier {{ param }}",
+      "deleted": "A Armor Category is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Armor Category {{ id }}?"
+      },
+      "detail": {
+        "title": "Armor Category"
+      },
+      "name": "Name"
+    }
+  }
+}

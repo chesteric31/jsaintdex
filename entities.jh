@@ -1,0 +1,39 @@
+entity ArmorCategory {
+	name String
+}
+
+entity Strength {
+	name String
+}
+
+entity Armor {
+	name String
+}
+
+entity ArmorStrength {
+	value Integer
+}
+
+entity ArmorVersion {
+	name String
+    image ImageBlob
+}
+
+entity ArmorVersionAttack {
+	name String
+}
+
+relationship OneToMany {
+	Armor{versions} to ArmorVersion{armor}
+	Armor{strengths} to ArmorStrength{armor}
+	ArmorVersion{attacks} to ArmorVersionAttack{version}
+}
+relationship ManyToOne {
+	Armor{category} to ArmorCategory
+	ArmorStrength{strength} to Strength
+}
+
+paginate * with infinite-scroll
+paginate * with pagination
+
+dto * with mapstruct

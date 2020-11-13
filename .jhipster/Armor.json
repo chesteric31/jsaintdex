@@ -1,0 +1,41 @@
+{
+  "name": "Armor",
+  "fields": [
+    {
+      "fieldName": "name",
+      "fieldType": "String"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "one-to-many",
+      "otherEntityName": "armorVersion",
+      "otherEntityRelationshipName": "armor",
+      "relationshipName": "versions"
+    },
+    {
+      "relationshipType": "one-to-many",
+      "otherEntityName": "armorStrength",
+      "otherEntityRelationshipName": "armor",
+      "relationshipName": "strengths"
+    },
+    {
+      "relationshipType": "many-to-one",
+      "otherEntityName": "armorCategory",
+      "otherEntityRelationshipName": "armor",
+      "relationshipName": "category",
+      "otherEntityField": "id"
+    }
+  ],
+  "changelogDate": "20201113124035",
+  "entityTableName": "armor",
+  "dto": "mapstruct",
+  "pagination": "pagination",
+  "service": "serviceClass",
+  "jpaMetamodelFiltering": false,
+  "fluentMethods": true,
+  "readOnly": false,
+  "embedded": false,
+  "clientRootFolder": "",
+  "applications": "*"
+}

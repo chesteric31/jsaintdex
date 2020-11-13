@@ -1,0 +1,22 @@
+{
+  "jsaintdexApp": {
+    "strength": {
+      "home": {
+        "title": "Strengths",
+        "createLabel": "Create a new Strength",
+        "createOrEditLabel": "Create or edit a Strength",
+        "notFound": "No Strengths found"
+      },
+      "created": "A new Strength is created with identifier {{ param }}",
+      "updated": "A Strength is updated with identifier {{ param }}",
+      "deleted": "A Strength is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Strength {{ id }}?"
+      },
+      "detail": {
+        "title": "Strength"
+      },
+      "name": "Name"
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "name": "ArmorStrength",
+  "fields": [
+    {
+      "fieldName": "value",
+      "fieldType": "Integer"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "many-to-one",
+      "otherEntityName": "strength",
+      "otherEntityRelationshipName": "armorStrength",
+      "relationshipName": "strength",
+      "otherEntityField": "id"
+    },
+    {
+      "relationshipType": "many-to-one",
+      "otherEntityName": "armor",
+      "otherEntityRelationshipName": "strengths",
+      "relationshipName": "armor",
+      "otherEntityField": "id"
+    }
+  ],
+  "changelogDate": "20201113124135",
+  "entityTableName": "armor_strength",
+  "dto": "mapstruct",
+  "pagination": "pagination",
+  "service": "serviceClass",
+  "jpaMetamodelFiltering": false,
+  "fluentMethods": true,
+  "readOnly": false,
+  "embedded": false,
+  "clientRootFolder": "",
+  "applications": "*"
+}

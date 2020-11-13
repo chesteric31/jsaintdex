@@ -1,0 +1,42 @@
+<div class="row justify-content-center">
+    <div class="col-8">
+        <div *ngIf="armorStrength">
+            <h2><span jhiTranslate="jsaintdexApp.armorStrength.detail.title">Armor Strength</span> {{ armorStrength.id }}</h2>
+
+            <hr>
+
+            <jhi-alert-error></jhi-alert-error>
+
+            <dl class="row-md jh-entity-details">
+                <dt><span jhiTranslate="jsaintdexApp.armorStrength.value">Value</span></dt>
+                <dd>
+                    <span>{{ armorStrength.value }}</span>
+                </dd>
+                <dt><span jhiTranslate="jsaintdexApp.armorStrength.strength">Strength</span></dt>
+                <dd>
+                    <div *ngIf="armorStrength.strengthId">
+                        <a [routerLink]="['/strength', armorStrength.strengthId, 'view']">{{ armorStrength.strengthId }}</a>
+                    </div>
+                </dd>
+                <dt><span jhiTranslate="jsaintdexApp.armorStrength.armor">Armor</span></dt>
+                <dd>
+                    <div *ngIf="armorStrength.armorId">
+                        <a [routerLink]="['/armor', armorStrength.armorId, 'view']">{{ armorStrength.armorId }}</a>
+                    </div>
+                </dd>
+            </dl>
+
+            <button type="submit"
+                    (click)="previousState()"
+                    class="btn btn-info">
+                <fa-icon icon="arrow-left"></fa-icon>&nbsp;<span jhiTranslate="entity.action.back">Back</span>
+            </button>
+
+            <button type="button"
+                    [routerLink]="['/armor-strength', armorStrength.id, 'edit']"
+                    class="btn btn-primary">
+                <fa-icon icon="pencil-alt"></fa-icon>&nbsp;<span jhiTranslate="entity.action.edit">Edit</span>
+            </button>
+        </div>
+    </div>
+</div>

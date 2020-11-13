@@ -1,0 +1,25 @@
+{
+  "jsaintdexApp": {
+    "armor": {
+      "home": {
+        "title": "Armors",
+        "createLabel": "Create a new Armor",
+        "createOrEditLabel": "Create or edit a Armor",
+        "notFound": "No Armors found"
+      },
+      "created": "A new Armor is created with identifier {{ param }}",
+      "updated": "A Armor is updated with identifier {{ param }}",
+      "deleted": "A Armor is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Armor {{ id }}?"
+      },
+      "detail": {
+        "title": "Armor"
+      },
+      "name": "Name",
+      "versions": "Versions",
+      "strengths": "Strengths",
+      "category": "Category"
+    }
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "name": "ArmorVersion",
+  "fields": [
+    {
+      "fieldName": "name",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "image",
+      "fieldType": "byte[]",
+      "fieldTypeBlobContent": "image"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "one-to-many",
+      "otherEntityName": "armorVersionAttack",
+      "otherEntityRelationshipName": "version",
+      "relationshipName": "attacks"
+    },
+    {
+      "relationshipType": "many-to-one",
+      "otherEntityName": "armor",
+      "otherEntityRelationshipName": "versions",
+      "relationshipName": "armor",
+      "otherEntityField": "id"
+    }
+  ],
+  "changelogDate": "20201113124235",
+  "entityTableName": "armor_version",
+  "dto": "mapstruct",
+  "pagination": "pagination",
+  "service": "serviceClass",
+  "jpaMetamodelFiltering": false,
+  "fluentMethods": true,
+  "readOnly": false,
+  "embedded": false,
+  "clientRootFolder": "",
+  "applications": "*"
+}

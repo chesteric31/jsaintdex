@@ -1,0 +1,45 @@
+<div class="row justify-content-center">
+    <div class="col-8">
+        <div *ngIf="armorVersion">
+            <h2><span jhiTranslate="jsaintdexApp.armorVersion.detail.title">Armor Version</span> {{ armorVersion.id }}</h2>
+
+            <hr>
+
+            <jhi-alert-error></jhi-alert-error>
+
+            <dl class="row-md jh-entity-details">
+                <dt><span jhiTranslate="jsaintdexApp.armorVersion.name">Name</span></dt>
+                <dd>
+                    <span>{{ armorVersion.name }}</span>
+                </dd>
+                <dt><span jhiTranslate="jsaintdexApp.armorVersion.image">Image</span></dt>
+                <dd>
+                    <div *ngIf="armorVersion.image">
+                        <a (click)="openFile(armorVersion.imageContentType, armorVersion.image)">
+                            <img [src]="'data:' + armorVersion.imageContentType + ';base64,' + armorVersion.image" style="max-width: 100%;" alt="armorVersion image"/>
+                        </a>
+                        {{ armorVersion.imageContentType }}, {{ byteSize(armorVersion.image) }}
+                    </div>
+                </dd>
+                <dt><span jhiTranslate="jsaintdexApp.armorVersion.armor">Armor</span></dt>
+                <dd>
+                    <div *ngIf="armorVersion.armorId">
+                        <a [routerLink]="['/armor', armorVersion.armorId, 'view']">{{ armorVersion.armorId }}</a>
+                    </div>
+                </dd>
+            </dl>
+
+            <button type="submit"
+                    (click)="previousState()"
+                    class="btn btn-info">
+                <fa-icon icon="arrow-left"></fa-icon>&nbsp;<span jhiTranslate="entity.action.back">Back</span>
+            </button>
+
+            <button type="button"
+                    [routerLink]="['/armor-version', armorVersion.id, 'edit']"
+                    class="btn btn-primary">
+                <fa-icon icon="pencil-alt"></fa-icon>&nbsp;<span jhiTranslate="entity.action.edit">Edit</span>
+            </button>
+        </div>
+    </div>
+</div>

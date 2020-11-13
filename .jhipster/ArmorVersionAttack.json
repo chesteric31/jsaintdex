@@ -1,0 +1,29 @@
+{
+  "name": "ArmorVersionAttack",
+  "fields": [
+    {
+      "fieldName": "name",
+      "fieldType": "String"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "many-to-one",
+      "otherEntityName": "armorVersion",
+      "otherEntityRelationshipName": "attacks",
+      "relationshipName": "version",
+      "otherEntityField": "id"
+    }
+  ],
+  "changelogDate": "20201113124335",
+  "entityTableName": "armor_version_attack",
+  "dto": "mapstruct",
+  "pagination": "pagination",
+  "service": "serviceClass",
+  "jpaMetamodelFiltering": false,
+  "fluentMethods": true,
+  "readOnly": false,
+  "embedded": false,
+  "clientRootFolder": "",
+  "applications": "*"
+}
