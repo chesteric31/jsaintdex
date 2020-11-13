@@ -1,0 +1,43 @@
+{
+  "generator-jhipster": {
+    "promptValues": {
+      "packageName": "be.chesteric31",
+      "nativeLanguage": "en"
+    },
+    "jhipsterVersion": "6.10.3",
+    "applicationType": "monolith",
+    "baseName": "jsaintdex",
+    "packageName": "be.chesteric31",
+    "packageFolder": "be/chesteric31",
+    "serverPort": "8080",
+    "authenticationType": "jwt",
+    "cacheProvider": "ehcache",
+    "enableHibernateCache": true,
+    "websocket": false,
+    "databaseType": "sql",
+    "devDatabaseType": "h2Disk",
+    "prodDatabaseType": "mysql",
+    "searchEngine": false,
+    "messageBroker": false,
+    "serviceDiscoveryType": false,
+    "buildTool": "maven",
+    "enableSwaggerCodegen": false,
+    "jwtSecretKey": "OTA2MjA5OTBhMDcwYjZhYjkyMWJmMjQ2N2NiZTg2NmYwZThjNzNiZjEzYTIwZWIxMjk5MzJhYjYxN2Q2MDQ2MzI3MzMzYTgxMzBmNjc1M2E0MTRlMzE0YjMzZmU5OGEwZDM1YzRhZTNmZjFhNmE2Y2NmMmJhNDY5MzNiM2M5YTM=",
+    "embeddableLaunchScript": false,
+    "useSass": true,
+    "clientPackageManager": "npm",
+    "clientFramework": "angularX",
+    "clientTheme": "sandstone",
+    "clientThemeVariant": "primary",
+    "creationTimestamp": 1605270876801,
+    "testFrameworks": [],
+    "jhiPrefix": "jhi",
+    "entitySuffix": "",
+    "dtoSuffix": "DTO",
+    "otherModules": [],
+    "enableTranslation": true,
+    "nativeLanguage": "en",
+    "languages": ["en"],
+    "blueprints": []
+  }
+}
